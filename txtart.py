@@ -19,7 +19,6 @@ from termcolor import colored, cprint
 from pyfiglet import Figlet
 from tabulate import tabulate
 
-lol='lolcat'
 tc='termcolor'
 pf='pyfiglet'
 te='tabulate'
@@ -201,7 +200,6 @@ def txtart():
 
 if __name__ == '__main__':
     loading()
-    install(lol)
     install(tc)
     install(pf)
     install(te)
